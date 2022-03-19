@@ -7,6 +7,7 @@ namespace MedicalAppointments.Data.Models
     {
         private int patientId, doctorId;
         public int Id { get; set; }
+        // Валидация за ID на пациент
         public int PatientId
         {
             get => patientId;
@@ -19,6 +20,7 @@ namespace MedicalAppointments.Data.Models
                 patientId = value;
             }
         }
+        // Валидация за ID на лекар
         public int DoctorId
         {
             get => doctorId;
@@ -36,6 +38,7 @@ namespace MedicalAppointments.Data.Models
         public virtual Doctors Doctor { get; set; }
         public virtual Patients Patient { get; set; }
 
+        // toString репрезентация на обекта
         public override string ToString()
         {
             return string.Format("{0, -10}{1, -25}{2, -25}{3, -10}", 

@@ -16,6 +16,7 @@ namespace MedicalAppointments.Data.Models
 
         public virtual ICollection<Patients> Patients { get; set; }
 
+        // toString репрезентация на обекта
         public override string ToString()
         {
             return Id + ". " + BloodType + (RhFactor ? "+" : "-");

@@ -16,6 +16,7 @@ namespace MedicalAppointments.Data.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime Birthdate { get; set; }
+        // Валидация за ID на кръвната група
         public int BloodGroupId
         {
             get => bloodGroupId;
@@ -33,6 +34,7 @@ namespace MedicalAppointments.Data.Models
         public virtual BloodGroups BloodGroup { get; set; }
         public virtual ICollection<Appointments> Appointments { get; set; }
 
+        // toString репрезентация на обекта
         public override string ToString()
         {
             return string.Format("{0, -10}{1, -15}{2, -15}{3, -15}{4, -5}{5, -10}",

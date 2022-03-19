@@ -16,6 +16,7 @@ namespace MedicalAppointments.Data.Models
         {
         }
 
+        // Таблици в БД
         public virtual DbSet<Appointments> Appointments { get; set; }
         public virtual DbSet<BloodGroups> BloodGroups { get; set; }
         public virtual DbSet<Doctors> Doctors { get; set; }
@@ -27,6 +28,7 @@ namespace MedicalAppointments.Data.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
+                // Connection string на БД
                 optionsBuilder.UseSqlServer("Data Source=COMP2\\NEWSERVER;Initial Catalog=DoctorDB;Integrated Security=True");
             }
         }

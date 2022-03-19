@@ -10,6 +10,7 @@ namespace MedicalAppointments.Presentation
             Input();
         }
         
+        // Главно меню
         private void ShowMenu()
         {
             Console.WriteLine("1. Appointments");
@@ -29,6 +30,7 @@ namespace MedicalAppointments.Presentation
                 Console.WriteLine();
                 ShowMenu();
                 op = int.Parse(Console.ReadLine());
+                // Избор на конзолно управление, според въведеното от потребителя
                 switch (op)
                 {
                     case 1:

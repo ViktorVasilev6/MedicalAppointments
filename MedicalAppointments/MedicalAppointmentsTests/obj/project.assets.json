@@ -5886,24 +5886,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\itkariera\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vikto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itkariera\\Downloads\\MedicalAppointments\\MedicalAppointmentsTests\\MedicalAppointmentsTests.csproj",
+      "projectUniqueName": "C:\\Users\\vikto\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointmentsTests\\MedicalAppointmentsTests.csproj",
       "projectName": "MedicalAppointmentsTests",
-      "projectPath": "C:\\Users\\itkariera\\Downloads\\MedicalAppointments\\MedicalAppointmentsTests\\MedicalAppointmentsTests.csproj",
-      "packagesPath": "C:\\Users\\itkariera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itkariera\\Downloads\\MedicalAppointments\\MedicalAppointmentsTests\\obj\\",
+      "projectPath": "C:\\Users\\vikto\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointmentsTests\\MedicalAppointmentsTests.csproj",
+      "packagesPath": "C:\\Users\\vikto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vikto\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointmentsTests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\itkariera\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\vikto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5915,10 +5910,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\itkariera\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointments.csproj": {
-              "projectPath": "C:\\Users\\itkariera\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointments.csproj"
+            "C:\\Users\\vikto\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointments\\MedicalAppointments.csproj": {
+              "projectPath": "C:\\Users\\vikto\\Downloads\\MedicalAppointments\\MedicalAppointments\\MedicalAppointments\\MedicalAppointments.csproj"
             }
           }
         }
@@ -5931,7 +5925,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5961,7 +5954,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

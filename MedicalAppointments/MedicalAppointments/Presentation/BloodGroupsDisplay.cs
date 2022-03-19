@@ -6,6 +6,7 @@ using System.Text;
 
 namespace MedicalAppointments.Presentation
 {
+    // Конзолно управление за кръвните групи
     class BloodGroupsDisplay
     {
         private BloodGroupsManager manager = new BloodGroupsManager();
@@ -34,6 +35,7 @@ namespace MedicalAppointments.Presentation
             {
                 ShowMenu();
                 op = int.Parse(Console.ReadLine());
+                // Избор на операция, според въведеното от потребителя
                 switch (op)
                 {
                     case 1:

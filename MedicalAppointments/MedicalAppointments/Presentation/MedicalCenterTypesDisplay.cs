@@ -6,6 +6,7 @@ using System.Text;
 
 namespace MedicalAppointments.Presentation
 {
+    // Конзолно управление за типовете медицински заведения
     class MedicalCenterTypesDisplay
     {
         private MedicalCenterTypesManager manager = new MedicalCenterTypesManager();

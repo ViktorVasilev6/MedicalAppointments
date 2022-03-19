@@ -19,8 +19,8 @@ namespace MedicalAppointments
             Console.WriteLine("                                            | |   | |                                                   ");
             Console.WriteLine("                                            |_|   |_|                                                   ");
             Console.ForegroundColor = ConsoleColor.Gray;
+            // Повикване на конструктора, отговорен за главното меню
             new Display();
-            Environment.Exit(0);
         }
     }
 }

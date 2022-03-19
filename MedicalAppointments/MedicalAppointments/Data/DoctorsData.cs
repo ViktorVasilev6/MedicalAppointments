@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MedicalAppointments.Data
 {
+    // Заявки, свързани с лекарския персонал
     class DoctorsData
     {
         public List<Doctors> GetAll()

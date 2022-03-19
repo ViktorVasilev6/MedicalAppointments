@@ -7,6 +7,7 @@ using System.Text;
 
 namespace MedicalAppointments.Data
 {
+    // Заявки, свързани с пациентите
     class PatientsData
     {
         public List<Patients> GetAll()

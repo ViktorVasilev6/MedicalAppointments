@@ -23,6 +23,7 @@ namespace MedicalAppointments.Data.Models
         {
             get; set;
         }
+        // Валидация за ID на медицинско заведение
         public int CenterId
         {
             get => centerId;
@@ -39,6 +40,7 @@ namespace MedicalAppointments.Data.Models
         public virtual MedicalCenters Center { get; set; }
         public virtual ICollection<Appointments> Appointments { get; set; }
 
+        // toString репрезентация на обекта
         public override string ToString()
         {
             return String.Format("{0, -10}{1, -35}{2, -25}{3, -35}{4, -25}{5, -10}", 

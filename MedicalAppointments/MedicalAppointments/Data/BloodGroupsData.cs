@@ -6,6 +6,7 @@ using System.Text;
 
 namespace MedicalAppointments.Data
 {
+    // Заявки, свързани с кръвните групи (Read-only)
     class BloodGroupsData
     {
         public List<BloodGroups> GetAll()

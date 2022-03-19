@@ -6,6 +6,7 @@ using MedicalAppointments.Data.Models;
 
 namespace MedicalAppointments.Business
 {
+    // Бизнес логика, свързана с кръвните групи
     class BloodGroupsManager
     {
         private BloodGroupsData manager = new BloodGroupsData();

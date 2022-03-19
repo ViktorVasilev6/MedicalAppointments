@@ -14,6 +14,7 @@ namespace MedicalAppointments.Data.Models
         public string CenterType { get; set; }
 
         public virtual ICollection<MedicalCenters> MedicalCenters { get; set; }
+        // toString репрезентация на обекта
         public override string ToString()
         {
             return Id + ". " + CenterType;

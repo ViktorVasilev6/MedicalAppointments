@@ -6,6 +6,7 @@ using System.Text;
 
 namespace MedicalAppointments.Presentation
 {
+    // Конзолно управление на записаните часове
     class AppointmentsDisplay
     {
         private AppointmentsManager manager = new AppointmentsManager();
@@ -37,6 +38,7 @@ namespace MedicalAppointments.Presentation
             {
                 ShowMenu();
                 op = int.Parse(Console.ReadLine());
+                // Избор на операция, според въведеното от потребителя
                 switch (op)
                 {
                     case 1:

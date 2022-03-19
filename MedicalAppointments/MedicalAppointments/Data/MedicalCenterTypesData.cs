@@ -6,6 +6,7 @@ using System.Text;
 
 namespace MedicalAppointments.Data
 {
+    // Заявки, свързани с типовете медицински заведения (Read-only)
     class MedicalCenterTypesData
     {
         public List<MedicalCenterTypes> GetAll()

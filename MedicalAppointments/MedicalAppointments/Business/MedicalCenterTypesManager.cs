@@ -6,6 +6,7 @@ using System.Text;
 
 namespace MedicalAppointments.Business
 {
+    // Бизнес логика, свързана с видовете медицински заведения
     class MedicalCenterTypesManager
     {
         MedicalCenterTypesData manager = new MedicalCenterTypesData();
